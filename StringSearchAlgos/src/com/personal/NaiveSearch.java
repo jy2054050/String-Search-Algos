@@ -6,12 +6,12 @@ public class NaiveSearch {
 		int counter=0;
 		int patternLength = pattern.length();
 		int sourceLength = source.length();
-		System.out.println(sourceLength + "  "+patternLength);
+		//System.out.println(sourceLength + "  "+patternLength);
 		for(int i =0 ; i<=(sourceLength-patternLength);i++){
-			System.out.println(source.substring(i,patternLength+i) );
+//			System.out.println(source.substring(i,patternLength+i) );
 			if ((source.substring(i,patternLength+i)).contentEquals(pattern)){
 				counter ++;
-				System.out.println("yes");
+			//	System.out.println("yes");
 			}			
 		}
 	
