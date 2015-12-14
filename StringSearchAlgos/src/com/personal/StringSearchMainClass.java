@@ -12,7 +12,7 @@ public class StringSearchMainClass {
 		ReadInputFile readIn = new ReadInputFile();
 		String source= readIn.FileReadMethod(location);
 		//System.out.println("The string is "+result);
-	//	System.out.println("String's length "+source.length());
+	System.out.println("String's length "+source.length());
 		
 		NaiveSearch naiveSearch = new NaiveSearch();
 		int noOfOccurance =	naiveSearch.NaiveSearchMethod(pattern, source);

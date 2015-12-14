@@ -19,7 +19,7 @@ public class RabinCarpSearchAlgo {
 			}
 			
 		}	
-		System.out.println(counter);
+		//System.out.println(counter);
 		return counter;
 		
 	}
