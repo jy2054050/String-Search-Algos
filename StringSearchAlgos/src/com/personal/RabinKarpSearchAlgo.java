@@ -1,9 +1,9 @@
 package com.personal;
 
 
-public class RabinCarpSearchAlgo {
+public class RabinKarpSearchAlgo {
 
-	public int rabinCarpStringSearchMethod(String pattern, String source){
+	public int rabinKarpStringSearchMethod(String pattern, String source){
 		int patternLength = pattern.length();
 		int sourceLength = source.length();
 		int patternHashValue= getHashCodeofString(pattern);

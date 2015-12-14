@@ -23,9 +23,9 @@ public class StringSearchMainClass {
 		int numberOfOccurance = n.RandomMethod(pattern, source);
 		System.out.println("To test Method Result :"+numberOfOccurance);
 		
-		RabinCarpSearchAlgo rc= new RabinCarpSearchAlgo();
-		int rcOccurance = rc.rabinCarpStringSearchMethod(pattern, source);
-		System.out.println("Rabi Carp Method Result :"+ rcOccurance);
+		RabinKarpSearchAlgo rc= new RabinKarpSearchAlgo();
+		int rcOccurance = rc.rabinKarpStringSearchMethod(pattern, source);
+		System.out.println("Rabi-Karp Method Result :"+ rcOccurance);
 		
 	}
 
