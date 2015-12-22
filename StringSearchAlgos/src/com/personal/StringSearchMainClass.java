@@ -6,9 +6,9 @@ public class StringSearchMainClass {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String pattern = "aa";
+		String pattern = "upload";
 		
-		String location= "C:/Users/jyadav/git/String-Search-Algos/StringSearchAlgos/resources/inputFile.properties";
+		String location= "C:/Users/jyadav/git/String-Search-Algos/StringSearchAlgos/resources/new_log.txt";
 		ReadInputFile readIn = new ReadInputFile();
 		String source= readIn.FileReadMethod(location);
 		//System.out.println("The string is "+result);
